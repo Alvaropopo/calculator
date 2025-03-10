@@ -35,3 +35,42 @@ td{
     background-color: rgb(50, 234, 231);
     font-size: 20px;
 }
+
+#display{
+    text-align: center;
+    font-size: 40px;
+    border: 2px solid black;
+    height: 20px;
+    background-color: white;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: rgb(114, 50, 50);
+}
+
+td:hover{
+    background-color: #017c37;
+    transform: translateY(-5px);
+    color: white;
+    font-size: 25px;
+}
+
+td:active{
+    background-color: red;
+    color: black;
+}
+
+table{
+    border: 2px solid black;
+    width: 30%;
+    margin-left: 35%;
+    background-color: #22dfdf;
+    transition: transform 1s ease;
+    box-shadow: 10px 10px 10px black;
+}
+
+.special{
+    background-color: #04af70;
+}

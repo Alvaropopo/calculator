@@ -9,33 +9,33 @@
 <body>
     <!-- title -->
     <h1>calculator</h1>
-    <table>
+    <table id="whole">
         <tr>
             <td colspan="4" id="display"></td>
         </tr>
         <tr>
-            <td>1</td><!-- showing no 1 -->
-            <td>2</td>
-            <td>3</td>
-            <td>+</td>
+            <td onclick="display('1')">1</td><!-- showing no 1 -->
+            <td onclick="display('2')">2</td>
+            <td onclick="display('3')">3</td>
+            <td onclick="display('+')" class="special">+</td>
         </tr>
         <tr>
-            <td>4</td>
-            <td>5</td>
-            <td>6</td>
-            <td>-</td>
+            <td onclick="display('4')">4</td>
+            <td onclick="display('5')">5</td>
+            <td onclick="display('6')">6</td>
+            <td onclick="display('-')" class="special">-</td>
         </tr>
         <tr>
-            <td>7</td>
-            <td>8</td>
-            <td>9</td>
-            <td>x</td>
+            <td onclick="display('7')">7</td>
+            <td onclick="display('8')">8</td>
+            <td onclick="display('9')">9</td>
+            <td onclick="display('*')" class="special">x</td>
         </tr>
         <tr>
-            <td>c</td>
-            <td>0</td>
-            <td>÷</td>
-            <td>=</td>
+            <td onclick="clearscreen()" class="special">c</td>
+            <td onclick="display('0')">0</td>
+            <td onclick="display('/')" class="special">÷</td>
+            <td onclick="equals()" class="special">=</td>
         </tr>
     </table>
     <script src="script.js"></script>
